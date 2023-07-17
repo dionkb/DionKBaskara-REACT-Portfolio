@@ -5,50 +5,13 @@
   --font-color: #2B2A4C;
 }
 
-.App {
+.mainBody {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 #catAvatar {
   height: 300px;
-  /* border: 1px solid; */
   border-radius: 50px;
-  /* border-color: var(--sec-color); */
   margin: 5px;
 }
 
@@ -62,6 +25,17 @@ header {
   background-color: var(--pri-color);
 }
 
-nav {
+nav, footer {
   background-color: var(--sec-color);
+}
+
+.projectCard {
+  width: 18rem;
+  background-color: var(--pri-color);
+  margin: 10px auto;
+}
+
+.btn-primary {
+  background-color: var(--tert-color) !important;
+  border: 0 !important;
 }
