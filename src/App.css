@@ -1,3 +1,10 @@
+:root { /*Sets variables to be used when possible and improve code clarity*/
+  --pri-color: #EEE2DE;
+  --sec-color: #EA906C;
+  --tert-color: #B31312;
+  --font-color: #2B2A4C;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#catAvatar {
+  height: 300px;
+  /* border: 1px solid; */
+  border-radius: 50px;
+  /* border-color: var(--sec-color); */
+  margin: 5px;
+}
+
+#headerName {
+  font-size: 32px;
+  color: var(--font-color);
+  margin: 5px 0 0 0;
+}
+
+header {
+  background-color: var(--pri-color);
+}
+
+nav {
+  background-color: var(--sec-color);
 }
