@@ -7,10 +7,10 @@ function Navigation() {
         <nav class="navbar navbar-expand-lg">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Home</a>
-                <a class="nav-item nav-link" href="#">Projects</a>
-                <a class="nav-item nav-link" href="#">About Me</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="#">Portfolio</a>
+                    <a class="nav-item nav-link" href="#">About Me</a>
+                    <a class="nav-item nav-link" href="#">Résumé</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
                 </div>
             </div>
         </nav>
