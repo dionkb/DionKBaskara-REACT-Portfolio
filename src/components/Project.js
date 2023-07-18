@@ -1,5 +1,5 @@
 // A component that will be used multiple times in the Portfolio section to display each project
-import React, { useState } from 'react';
+import React from 'react';
 
 function Project() {
     return (
