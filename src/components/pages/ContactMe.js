@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../Footer';
 import Header from '../Header';
+// TODO: ADD CONTACT FORM
 
 export default function ContactMe() {
     return (

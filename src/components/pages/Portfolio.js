@@ -2,13 +2,31 @@ import React from 'react';
 import Project from '../Project';
 import Footer from '../Footer';
 import Header from '../Header';
+import { projectData } from '../../utils/dataArrays';
 
-export default function Portfolio() {
+function Portfolio() {
     return (
-        <div>
+        <>
             <Header />
-            <Project />
+            <div>
+                { projectData.map((project, index) => {
+                    return (
+                        <Project 
+                        id={index}
+                        key={index}
+                        title={project.title}
+                        image={project.image}
+                        description={project.description}
+                        workType={project.workType}
+                        deployedURL={project.deployedURL}
+                        repositoryURL={project.repositoryURL}
+                        />
+                    );
+                })}
+            </div>
             <Footer />
-        </div>
-    );
-}
+        </>
+    ); 
+};
+
+export default Portfolio;
