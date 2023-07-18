@@ -8,25 +8,16 @@ function Navigation({ currentPage, changePageFunction }) {
                 <a href="#home" onClick={() => changePageFunction('Home')}
                 className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                 >
-                Home
+                <p id="navInitials">DB</p>
                 </a>
             </li>
             <li className="nav-item">
                 <a
                 href="#aboutme"
                 onClick={() => changePageFunction('AboutMe')}
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
                 >
                 About Me
-                </a>
-            </li>
-            <li className="nav-item">
-                <a
-                href="#contactme"
-                onClick={() => changePageFunction('ContactMe')}
-                className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}
-                >
-                Contact Me
                 </a>
             </li>
             <li className="nav-item">
@@ -36,6 +27,24 @@ function Navigation({ currentPage, changePageFunction }) {
                 className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                 >
                 Portfolio
+                </a>
+            </li>
+            <li className="nav-item">
+                <a
+                href="#resume"
+                onClick={() => changePageFunction('Resume')}
+                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                >
+                Resume
+                </a>
+            </li>
+            <li className="nav-item">
+                <a
+                href="#contactme"
+                onClick={() => changePageFunction('ContactMe')}
+                className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}
+                >
+                Contact Me
                 </a>
             </li>
         </ul>

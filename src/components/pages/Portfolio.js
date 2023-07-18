@@ -1,13 +1,11 @@
 import React from 'react';
 import Project from '../Project';
-// import Footer from '../Footer';
-import Header from '../Header';
 import { projectData } from '../../utils/dataArrays';
 
 function Portfolio() {
     return (
-        <>
-            <Header />
+        <div>
+            <h1>My Work</h1>
             <div className='row justify-content-center'>
                 { projectData.map((project, index) => {
                     return (
@@ -25,8 +23,7 @@ function Portfolio() {
                     );
                 })}
             </div>
-            {/* <Footer /> */}
-        </>
+        </div>
     ); 
 };
 

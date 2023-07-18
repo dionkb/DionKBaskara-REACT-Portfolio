@@ -3,13 +3,9 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer class="navbar navbar-expand-lg">
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                <a class="nav-item nav-link" href="https://github.com/dionkb">Github</a>
-                <a class="nav-item nav-link" href="https://www.linkedin.com/in/dionkbaskara/">LinkedIn</a>
-                </div>
-            </div>
+        <footer>
+            <a class="nav-item nav-link" href="https://github.com/dionkb">Github</a>
+            <a class="nav-item nav-link" href="https://www.linkedin.com/in/dionkbaskara/">LinkedIn</a>
         </footer>
     );
 }
