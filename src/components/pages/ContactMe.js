@@ -3,7 +3,7 @@ import React from 'react';
 export default function ContactMe() {
     return (
         <div>
-            <br></br>
+            <br /><br />
             <h1>Get In Touch</h1>
             <p> Have any questions? Suggestions? Outright rants?? Feel free to send them my way: </p>
             <form class="contactForm">
@@ -25,6 +25,12 @@ export default function ContactMe() {
                 <br></br>
                 <button class="btn btn-primary" type="submit">Send</button>
             </form>
+            <div>
+                <br />
+                <h4>Form not working? Reach out another way:</h4>
+                <p>Email: dionkbaskara@gmail.com</p>
+                <p>Github: github.com/dionkb</p>
+            </div>
         </div>
     );
 }

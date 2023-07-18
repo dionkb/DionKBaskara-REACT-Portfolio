@@ -63,4 +63,23 @@ const projectData = [
     },
 ];
 
-export { projectData };
+// Created as objects as I may add icons or descriptions in the future.
+const proficiencyData = [
+    {
+        name: "MERN: MongoDb, Express, React, NodeJS",
+    },
+    {
+        name: "Various SQL & NoSQL style database management apps",
+    },
+    {
+        name: "MVC, ORM, and other styles of framework",
+    },
+    {
+        name: "Fetching APIs through various means and frameworks",
+    },
+    {
+        name: "Basic HTML, CSS, & Javascript",
+    },
+]
+
+export { projectData, proficiencyData };
