@@ -1,13 +1,18 @@
 :root { /*Sets variables to be used when possible and improve code clarity*/
-  --pri-color: #EEE2DE;
-  --sec-color: #EA906C;
-  --tert-color: #B31312;
-  --font-color: #2B2A4C;
+  --pri-dark: #9DBEBB;
+  --pri-light: #F4E9CD;
+  --sec-light: #77ACA2;
+  --sec-dark: #468189;
+  --font-color: #031926;
 }
 
 .mainBody {
   text-align: center;
   justify-content: center;
+  background-color: var(--pri-light);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 #navbarList {
@@ -18,44 +23,76 @@
 
 #navbarList li {
   float: left;
-  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+a.nav-link.active {
+  font-weight: bold;
+}
+
+#navInitials {
+  font-size: 34px;
+  font-weight: bold; 
+  margin: -12px 10px 0 -20px;
 }
 
 #avatar {
   height: 300px;
   border-radius: 50px;
-  margin: 5px;
+  margin: 5px 0 10px 0;
 }
 
 #headerName {
-  font-size: 32px;
+  font-size: 64px;
   color: var(--font-color);
-  margin: 5px 0 0 0;
-}
-
-header {
-  background-color: var(--pri-color);
+  padding-top: 30px;
 }
 
 #navbarList, footer {
-  background-color: var(--sec-color);
-  width: 100%;
+  background-color: var(--sec-dark);
 }
 
 footer {
-  bottom: 0 !important;
-  margin-top: 50px;
-  position: absolute !important;
+  display: block;
+  width: 100vw;
+  margin-top: auto;
+  bottom: 0;
 }
 
 .card {
   width: 18rem;
-  background-color: var(--pri-color);
+  background-color: var(--sec-light) !important;
   margin: 10px auto;
 }
 
 .btn-primary {
-  background-color: var(--tert-color) !important;
+  background-color: var(--pri-dark) !important;
+  color: var(--font-color) !important;
   border: 0 !important;
   margin: 2px;
+  border: 1px solid var(--sec-dark) !important;
+}
+
+.aboutMe, .homePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.aboutMe * {
+  width: 33%;
+  justify-content: center;
+  text-align: center;
+}
+
+.row {
+  background-color: var(--pri-light);
+}
+
+.contactForm, .contactForm * {
+  flex: 1;
+  justify-content: center;
 }

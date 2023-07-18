@@ -5,8 +5,8 @@ import Avatar from '../assets/dionAvatar.jpg';
 function Header() {
     return (
         <header>
+            <h1 id="headerName">Dion Baskara</h1>
             <img id="avatar" src={Avatar} alt="avatar of a cat, sketched by Dion Baskara"/>
-            <h1 id="headerName">DION BASKARA</h1>
         </header>  
     );
 }

@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import ContactMe from './pages/ContactMe';
+import Resume from './pages/Resume';
+import Footer from './Footer';
 
 export default function MainPageHandler() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -18,15 +20,21 @@ export default function MainPageHandler() {
         if (currentPage === 'Portfolio') {
         return <Portfolio />;
         }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+            }
         return <ContactMe />;
     };
 
     const changePageFunction = (page) => setCurrentPage(page);
 
     return (
-        <div>
-        <Navigation currentPage={currentPage} changePageFunction={changePageFunction} />
-        {renderPage()}
-        </div>
+        <>
+            <div>
+                <Navigation currentPage={currentPage} changePageFunction={changePageFunction} />
+                {renderPage()}
+            </div>
+            <Footer />
+        </>
     );
 }
