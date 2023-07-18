@@ -18,7 +18,8 @@ function Portfolio() {
                         image={project.image}
                         description={project.description}
                         workType={project.workType}
-                        deployedURL={project.deployedURL}
+                        variableBtnText={project.variableBtnText}
+                        applicationURL={project.applicationURL}
                         repositoryURL={project.repositoryURL}
                         />
                     );

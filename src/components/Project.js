@@ -10,7 +10,7 @@ function Project(props) {
                     <h5 class="card-title">{props.title}</h5>
                     <p class="card-text">{props.description}</p>
                     <p class="card-text">Type of project: {props.workType}</p>
-                        <a href={props.deployedURL} class="btn btn-primary">Use App</a>
+                        <a href={props.applicationURL} class="btn btn-primary">{props.variableBtnText}</a>
                         <a href={props.repositoryURL} class="btn btn-primary">Repository</a>
                 </div>
             </div>  

@@ -1,5 +1,5 @@
 // A component that appears uniformly at the foot of each page.
-import React, { useState } from 'react';
+import React from 'react';
 
 function Footer() {
     return (
