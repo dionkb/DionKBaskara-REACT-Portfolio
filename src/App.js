@@ -1,18 +1,11 @@
 import './App.css';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Footer from './components/Footer';
-import Project from './components/Project';
+import React from 'react';
+import MainPageHandler from './components/RenderPage';
 
-function App() {
-  return (
-    <div className="mainBody">
-      <Header />
-      <Navigation />
-      <Project />
-      <Footer />
+const App = () =>
+    <div class="mainBody">
+        <MainPageHandler />
     </div>
-  );
-}
+
 
 export default App;

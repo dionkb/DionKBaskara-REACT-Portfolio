@@ -7,6 +7,17 @@
 
 .mainBody {
   text-align: center;
+  justify-content: center;
+}
+
+#navbarList {
+  list-style: none;
+  height: 30px;
+}
+
+#navbarList li {
+  float: left;
+  padding: 10px;
 }
 
 #catAvatar {
@@ -27,6 +38,12 @@ header {
 
 nav, footer {
   background-color: var(--sec-color);
+}
+
+footer {
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100%;
 }
 
 .projectCard {
