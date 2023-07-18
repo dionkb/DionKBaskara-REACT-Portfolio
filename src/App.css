@@ -15,10 +15,11 @@
   min-height: 100vh;
 }
 
-#navbarList {
+#navbarList, nav {
   list-style: none;
   height: 50px;
   margin: 0;
+  width: 100vw;
 }
 
 #navbarList li {
@@ -61,7 +62,7 @@ footer {
 }
 
 .card {
-  width: 18rem;
+  width: auto;
   background-color: var(--sec-light) !important;
   margin: 10px auto;
 }
@@ -94,5 +95,12 @@ footer {
 
 .contactForm, .contactForm * {
   flex: 1;
+  justify-content: center;
+}
+
+.profsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
