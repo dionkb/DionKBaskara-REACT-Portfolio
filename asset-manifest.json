@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d350a54.css",
+    "main.js": "/static/js/main.ac76ffd7.js",
+    "static/js/787.7b573bf2.chunk.js": "/static/js/787.7b573bf2.chunk.js",
+    "static/media/StarGazers.png": "/static/media/StarGazers.3d3b62aff8fd2b980501.png",
+    "static/media/dionAvatar.jpg": "/static/media/dionAvatar.493f3d0dddd1be01893c.jpg",
+    "static/media/READMEGenerator.jpg": "/static/media/READMEGenerator.5c1460561a14ae864236.jpg",
+    "static/media/EmployeeSQLDatabase.jpg": "/static/media/EmployeeSQLDatabase.18d5e5a91db1fb57708a.jpg",
+    "static/media/GistTutorial.png": "/static/media/GistTutorial.31f785287d4675ea22fc.png",
+    "static/media/OldPortfolio.jpg": "/static/media/OldPortfolio.7dcaae3a36050deecc6f.jpg",
+    "static/media/MVCTechBlog.jpg": "/static/media/MVCTechBlog.fc33a448f8ee43238757.jpg",
+    "index.html": "/index.html",
+    "main.9d350a54.css.map": "/static/css/main.9d350a54.css.map",
+    "main.ac76ffd7.js.map": "/static/js/main.ac76ffd7.js.map",
+    "787.7b573bf2.chunk.js.map": "/static/js/787.7b573bf2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d350a54.css",
+    "static/js/main.ac76ffd7.js"
+  ]
+}
