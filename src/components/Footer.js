@@ -6,6 +6,7 @@ function Footer() {
         <footer>
             <a class="nav-item nav-link" href="https://github.com/dionkb">Github</a>
             <a class="nav-item nav-link" href="https://www.linkedin.com/in/dionkbaskara/">LinkedIn</a>
+            <a class="nav-item nav-link" href="https://gist.github.com/dionkb">Gist Tutorials</a>
         </footer>
     );
 }
