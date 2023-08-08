@@ -1,3 +1,4 @@
+import ConcertConnect from '../assets/ConcertConnect.PNG'
 import StarGazers from '../assets/StarGazers.png'
 import EmployeeSQLDatabase from '../assets/EmployeeSQLDatabase.jpg'
 import MVCTechBlog from '../assets/MVCTechBlog.jpg'
@@ -8,12 +9,21 @@ import OldPortfolio from '../assets/OldPortfolio.jpg'
 
 const projectData = [
     {
+        title: "Concert:Connect",
+        image: ConcertConnect,
+        description: "Love going to concerts? Find your next show here, review concerts, make friends!",
+        workType: "Group",
+        variableBtnText: "View App",
+        applicationURL: "https://github.com/Sabplpz/Concert-Connect.git",
+        repositoryURL: "https://github.com/Sabplpz/Concert-Connect.git"
+    },
+    {
         title: "StarGazers",
         image: StarGazers,
         description: "A web application to help you find the best times and places to go stargazing!",
         workType: "Group",
         variableBtnText: "View App",
-        applicationURL: "https://sabplpz.github.io/StarGazers",
+        applicationURL: "https://limitless-dawn-09471-5eef669ce044.herokuapp.com/",
         repositoryURL: "https://github.com/Sabplpz/StarGazers.git"
     },
     {
