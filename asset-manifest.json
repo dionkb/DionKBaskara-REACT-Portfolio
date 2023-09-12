@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/DionKBaskara-REACT-Portfolio/static/css/main.9d350a54.css",
-    "main.js": "/DionKBaskara-REACT-Portfolio/static/js/main.bf6f7501.js",
+    "main.js": "/DionKBaskara-REACT-Portfolio/static/js/main.c05e6146.js",
     "static/js/787.7b573bf2.chunk.js": "/DionKBaskara-REACT-Portfolio/static/js/787.7b573bf2.chunk.js",
     "static/media/StarGazers.png": "/DionKBaskara-REACT-Portfolio/static/media/StarGazers.3d3b62aff8fd2b980501.png",
+    "static/media/ConcertConnect.PNG": "/DionKBaskara-REACT-Portfolio/static/media/ConcertConnect.9cf21fab2f5d605ef5aa.PNG",
     "static/media/dionAvatar.jpg": "/DionKBaskara-REACT-Portfolio/static/media/dionAvatar.493f3d0dddd1be01893c.jpg",
     "static/media/READMEGenerator.jpg": "/DionKBaskara-REACT-Portfolio/static/media/READMEGenerator.5c1460561a14ae864236.jpg",
     "static/media/EmployeeSQLDatabase.jpg": "/DionKBaskara-REACT-Portfolio/static/media/EmployeeSQLDatabase.18d5e5a91db1fb57708a.jpg",
@@ -12,11 +13,11 @@
     "static/media/MVCTechBlog.jpg": "/DionKBaskara-REACT-Portfolio/static/media/MVCTechBlog.fc33a448f8ee43238757.jpg",
     "index.html": "/DionKBaskara-REACT-Portfolio/index.html",
     "main.9d350a54.css.map": "/DionKBaskara-REACT-Portfolio/static/css/main.9d350a54.css.map",
-    "main.bf6f7501.js.map": "/DionKBaskara-REACT-Portfolio/static/js/main.bf6f7501.js.map",
+    "main.c05e6146.js.map": "/DionKBaskara-REACT-Portfolio/static/js/main.c05e6146.js.map",
     "787.7b573bf2.chunk.js.map": "/DionKBaskara-REACT-Portfolio/static/js/787.7b573bf2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d350a54.css",
-    "static/js/main.bf6f7501.js"
+    "static/js/main.c05e6146.js"
   ]
 }
